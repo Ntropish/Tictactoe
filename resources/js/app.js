@@ -63,7 +63,7 @@ $(document).ready(function(){
 
                 }
             }
-            function npcWinNextMove() {//Check if user can win next move
+            function npcWinNextMove() {//Check if npc can win next move
                 for (var i = 0, l = winSets.length; i<l; i++) {
                     var winSet = winSets[i];
 
